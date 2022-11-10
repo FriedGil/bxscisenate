@@ -1,45 +1,63 @@
 
 <script>
-    import { typewriter } from '@svelteuidev/motion';
-    import Navbar from '../lib/Navbar.svelte';
+    import { Text, Center } from '@svelteuidev/core';
 </script>
 
 <style>
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
     .full{
         min-height: 100vh;
         min-width: 100%;
-        animation: fadeIn 1s;
-        animation-delay: 1s;
-        animation-fill-mode: forwards;
-        opacity: 0;
         float:left;
-
 
     }
     .full.first{
-        background-color: lime;
+        background-color: #FDFDBD;
     }
 
     .full.second{
-        background-color: limegreen;
+        background-color: #C8FFD4;
+    }
+
+    .full.third {
+        background-color: #B8E8FC;
+    }
+    html {
+    scroll-behavior: smooth;
+    margin: 0;
     }
 </style>
 
-<Navbar/>
 
-<body style="margin:0;">
-    <div class="full first" style>
-        <p></p>
+
+<html lang="en" style="margin:0;">
+    <div id="about" class="full first" style>
+        <Center>
+            <Text>
+                About
+            </Text>
+        </Center>
+
     </div>
     
     
-    <div class="full second">
+    <div id="resources" class="full second">
     
-        <p></p>
+        <Center>
+            <Text>
+                Resources
+            </Text>
+        </Center>
+
     </div>
+
+    <div id="contact" class="full third">
     
-</body>
+        <Center>
+            <Text>
+                Contact
+            </Text>
+        </Center>
+    </div>
+
+    
+</html>
