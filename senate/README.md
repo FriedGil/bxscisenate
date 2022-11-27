@@ -1,0 +1,1 @@
+https://dev.to/brewhousedigital/adding-tailwind-and-daisy-ui-to-sveltekit-2hk5 you are my lord and savc
