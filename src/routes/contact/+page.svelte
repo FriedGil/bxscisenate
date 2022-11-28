@@ -1,4 +1,4 @@
-<div class="bg-accent min-h-screen ">
+<div class="bg-accent min-h-screen max-w-lg ">
     <div class="chat chat-start">
         <div class="chat-bubble chat-bubble-primary">How can I contact my senator?</div>
     </div>

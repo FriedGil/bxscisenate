@@ -17,8 +17,8 @@
 </div>
 
 <div class="hero min-h-screen bg-secondary">
-    <div class="hero-content text-center max-w-md">
-        <p class="mb-5 text-xl font-bold text-accent  font-mono ">
+    <div class="hero-content text-center max-w-lg">
+        <p class="mb-5 text-xl font-bold text-primary  font-mono ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, cupiditate consequuntur sint aliquam esse animi magni et nostrum id illo tempore ea sed nihil temporibus! Ad nostrum perspiciatis sapiente corporis.
         </p>
       </div>
@@ -26,7 +26,7 @@
   </div>
 
   <div class="hero min-h-screen bg-accent">
-    <div class="hero-content text-center max-w-md">
+    <div class="hero-content text-center max-w-lg">
         <p class="mb-5 text-xl font-bold text-primary  font-mono ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, cupiditate consequuntur sint aliquam esse animi magni et nostrum id illo tempore ea sed nihil temporibus! Ad nostrum perspiciatis sapiente corporis.
         </p>
